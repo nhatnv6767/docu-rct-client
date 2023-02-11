@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="redux reducer &lt;order&gt;">
-      <change beforePath="$PROJECT_DIR$/src/redux/RootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/RootReducer.js" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="redux root reducer &lt;order&gt;">
+      <change afterPath="$PROJECT_DIR$/src/redux/Product/ProductAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/Product/ProductReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/Product/ProductTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="9345000" />
+      <workItem from="1676090108895" duration="12406000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -270,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676100355143</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="redux root reducer &lt;order&gt;">
+      <created>1676100406184</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676100406184</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +311,7 @@
     <MESSAGE value="redux type &lt;order&gt;" />
     <MESSAGE value="redux action &lt;order&gt;" />
     <MESSAGE value="redux reducer &lt;order&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux reducer &lt;order&gt;" />
+    <MESSAGE value="redux root reducer &lt;order&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux root reducer &lt;order&gt;" />
   </component>
 </project>
