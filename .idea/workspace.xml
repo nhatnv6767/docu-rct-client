@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="redux root reducer &lt;order&gt;">
-      <change afterPath="$PROJECT_DIR$/src/redux/Product/ProductAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/Product/ProductReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/Product/ProductTypes.js" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="redux &lt;product&gt;">
+      <change afterPath="$PROJECT_DIR$/src/redux/ResetPassword/PasswordAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/ResetPassword/PasswordReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/ResetPassword/PasswordTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/bhnone/Work/Coding/ReactJS/docu-react-client/src/assets/img",
+    "last_opened_file_path": "/Users/bhnone/Work/Coding/ReactJS/docu-react-client/src/redux/ResetPassword",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux/ResetPassword" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
@@ -117,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="12406000" />
+      <workItem from="1676090108895" duration="12745000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -280,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676100406184</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="redux &lt;product&gt;">
+      <created>1676119747102</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676119747102</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +320,7 @@
     <MESSAGE value="redux action &lt;order&gt;" />
     <MESSAGE value="redux reducer &lt;order&gt;" />
     <MESSAGE value="redux root reducer &lt;order&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux root reducer &lt;order&gt;" />
+    <MESSAGE value="redux &lt;product&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux &lt;product&gt;" />
   </component>
 </project>
