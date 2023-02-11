@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="top header">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/tiengviet.png" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="top header 2">
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/TopHeader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/TopHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/TopHeader.jsx" afterDir="false" />
     </list>
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -74,6 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/bhnone/Work/Coding/ReactJS/docu-react-client/src/assets/img",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.ember-template-lint": "",
@@ -114,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="8564000" />
+      <workItem from="1676090108895" duration="8773000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676098549721</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="top header 2">
+      <created>1676099625777</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676099625777</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +270,7 @@
     <MESSAGE value="footer 2" />
     <MESSAGE value="footer fn" />
     <MESSAGE value="top header" />
-    <option name="LAST_COMMIT_MESSAGE" value="top header" />
+    <MESSAGE value="top header 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="top header 2" />
   </component>
 </project>

@@ -3,8 +3,9 @@ import AuthContext from '../../contexts/auth-context'
 import english from '../../assets/img/english.png'
 import tiengviet from '../../assets/img/tiengviet.png'
 import { Link, withRouter } from 'react-router-dom'
+import './TopHeader.css'
 
-const TopHeader = ({ shippingMessage, history }) => {
+function TopHeader ({ shippingMessage, history }) {
   const context = useContext(AuthContext)
 
   const handleLogout = () => {
