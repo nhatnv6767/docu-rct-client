@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="Route 404">
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="error page">
+      <change afterPath="$PROJECT_DIR$/src/components/About/ComingSoonArea.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/ErrorArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ErrorArea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/tiengviet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/tiengviet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/TopHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/TopHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/bhnone/Work/Coding/ReactJS/docu-react-client/src/redux/ResetPassword",
+    "last_opened_file_path": "/Users/bhnone/Work/Coding/ReactJS/docu-react-client/src/assets/img",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -89,8 +92,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/redux/ResetPassword" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/redux/ResetPassword" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
@@ -117,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="14086000" />
+      <workItem from="1676090108895" duration="17346000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -315,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676121132106</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="error page">
+      <created>1676121427308</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676121427308</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +334,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="config and structure 3" />
     <MESSAGE value="context cart" />
     <MESSAGE value="context cart 2" />
     <MESSAGE value="config redux" />
@@ -349,6 +358,7 @@
     <MESSAGE value="redux &lt;rootReducer&gt;" />
     <MESSAGE value="Data questions" />
     <MESSAGE value="Route 404" />
-    <option name="LAST_COMMIT_MESSAGE" value="Route 404" />
+    <MESSAGE value="error page" />
+    <option name="LAST_COMMIT_MESSAGE" value="error page" />
   </component>
 </project>

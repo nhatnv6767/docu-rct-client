@@ -45,18 +45,17 @@ function TopHeader ({ shippingMessage, history }) {
                   <div className="dropdown-menu">
                     <a href="#"
                        className="dropdown-item d-flex align-items-center">
-                      <img src={english} alt="flag" className="shadow-sm"/>
-                      <span>English</span>
-                    </a>
-
-                  </div>
-                  <div className="dropdown-menu">
-                    <a href="#"
-                       className="dropdown-item d-flex align-items-center">
                       <img src={tiengviet} alt="flag" className="shadow-sm"/>
                       <span>Tiếng Việt</span>
                     </a>
+                    <a href="#"
+                       className="dropdown-item d-flex align-items-center">
+                      <img src={english} alt="flag" className="shadow-sm"/>
+                      <span>English</span>
+                    </a>
                   </div>
+
+
                 </div>
               </li>
 
@@ -66,7 +65,7 @@ function TopHeader ({ shippingMessage, history }) {
                   {!context.token && (
                     <Link to="/login">Đăng nhập</Link>
                   )}{' '}
-                  Or{' '}
+                  Hoặc{' '}
                   {!context.token && (
                     <Link to="/login">Đăng ký</Link>
                   )}
@@ -75,7 +74,7 @@ function TopHeader ({ shippingMessage, history }) {
                       className="logout-btn"
                       onClick={handleLogout}
                     >
-                      Logout
+                      Đăng xuất
                     </button>
                   )}
                 </span>
