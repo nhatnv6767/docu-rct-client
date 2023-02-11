@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="redux &lt;reset password&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ResetPassword/PasswordReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ResetPassword/PasswordReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/RootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/RootReducer.js" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="redux &lt;rootReducer&gt;">
+      <change afterPath="$PROJECT_DIR$/src/components/About/Data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="12971000" />
+      <workItem from="1676090108895" duration="13260000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -294,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676120053648</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="redux &lt;rootReducer&gt;">
+      <created>1676120282180</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676120282180</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +308,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="package install" />
     <MESSAGE value="config and structure" />
     <MESSAGE value="config and structure 2" />
     <MESSAGE value="config and structure 3" />
@@ -328,6 +332,7 @@
     <MESSAGE value="redux root reducer &lt;order&gt;" />
     <MESSAGE value="redux &lt;product&gt;" />
     <MESSAGE value="redux &lt;reset password&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux &lt;reset password&gt;" />
+    <MESSAGE value="redux &lt;rootReducer&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux &lt;rootReducer&gt;" />
   </component>
 </project>
