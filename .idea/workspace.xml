@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="top_header css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/ComingSoonArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ComingSoonArea.jsx" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="comming soon area">
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Preloader.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="17987000" />
+      <workItem from="1676090108895" duration="18116000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -329,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676124658998</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="comming soon area">
+      <created>1676125312367</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676125312367</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +343,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="context cart 2" />
     <MESSAGE value="config redux" />
     <MESSAGE value="config redux 2" />
     <MESSAGE value="config App.js" />
@@ -363,6 +367,7 @@
     <MESSAGE value="Route 404" />
     <MESSAGE value="error page" />
     <MESSAGE value="top_header css" />
-    <option name="LAST_COMMIT_MESSAGE" value="top_header css" />
+    <MESSAGE value="comming soon area" />
+    <option name="LAST_COMMIT_MESSAGE" value="comming soon area" />
   </component>
 </project>
