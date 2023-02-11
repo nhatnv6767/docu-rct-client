@@ -117,7 +117,7 @@ const MiddleHeader = ({ history }) => {
                 </Link>
               </li>
               <li>
-                Yen
+                &#165;
                 {
                   context.cartItems &&
                   context.cartItems.reduce(
