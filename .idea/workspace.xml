@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="comming soon init">
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="coming soon css">
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/MiddleHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/ComingSoonArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/ComingSoonArea.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="19616000" />
+      <workItem from="1676090108895" duration="19799000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -357,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676125724832</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="coming soon css">
+      <created>1676126938567</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676126938567</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +373,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="page title" />
     <MESSAGE value="page title 2" />
     <MESSAGE value="assets" />
     <MESSAGE value="index.js import url" />
@@ -391,6 +397,7 @@
     <MESSAGE value="preloader" />
     <MESSAGE value="comming soon /pages" />
     <MESSAGE value="comming soon init" />
-    <option name="LAST_COMMIT_MESSAGE" value="comming soon init" />
+    <MESSAGE value="coming soon css" />
+    <option name="LAST_COMMIT_MESSAGE" value="coming soon css" />
   </component>
 </project>
