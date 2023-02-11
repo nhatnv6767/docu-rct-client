@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="redux action &lt;order&gt;">
-      <change afterPath="$PROJECT_DIR$/src/redux/Order/OrderReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="redux reducer &lt;order&gt;">
+      <change beforePath="$PROJECT_DIR$/src/redux/RootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/RootReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="9298000" />
+      <workItem from="1676090108895" duration="9345000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -264,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676100195875</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="redux reducer &lt;order&gt;">
+      <created>1676100355143</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676100355143</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +300,7 @@
     <MESSAGE value="top header css" />
     <MESSAGE value="redux type &lt;order&gt;" />
     <MESSAGE value="redux action &lt;order&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux action &lt;order&gt;" />
+    <MESSAGE value="redux reducer &lt;order&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux reducer &lt;order&gt;" />
   </component>
 </project>
