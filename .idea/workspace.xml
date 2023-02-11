@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="middleHeader css">
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="middleHeader css 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
@@ -116,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="25687000" />
+      <workItem from="1676090108895" duration="25932000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -391,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676132195305</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="middleHeader css 2">
+      <created>1676133232640</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1676133232640</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +407,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="footer 2" />
     <MESSAGE value="footer fn" />
     <MESSAGE value="top header" />
     <MESSAGE value="top header 2" />
@@ -425,6 +431,7 @@
     <MESSAGE value="middleHeader 1" />
     <MESSAGE value="middleHeader 2" />
     <MESSAGE value="middleHeader css" />
-    <option name="LAST_COMMIT_MESSAGE" value="middleHeader css" />
+    <MESSAGE value="middleHeader css 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="middleHeader css 2" />
   </component>
 </project>

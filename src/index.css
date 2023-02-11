@@ -123,6 +123,22 @@ h6:last-child {
     padding-bottom: 20px;
 }
 
+.default-btn {
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #136;
+    color: #fff;
+    -webkit-transition: .5s;
+    transition: .5s;
+    opacity: 1;
+    font-weight: 500;
+    padding: 15px 35px;
+}
+
 /*FOOTER*/
 
 .single-footer-widget {
@@ -644,8 +660,8 @@ h6:last-child {
     min-height: 38px;
     color: #292929;
     position: relative;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
     padding-left: 15px;
     padding-right: 25px;
     font-size: 15px;
@@ -668,14 +684,13 @@ h6:last-child {
     position: relative;
 }
 
-
 .middle-header-search form .search-box .form-control {
     height: 55px;
     padding: 8px 15px;
     border: none;
     background-color: #fff;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
     color: #292929;
     width: 100%;
     font-weight: 600;
@@ -687,7 +702,10 @@ h6:last-child {
     box-shadow: none;
 }
 
-.middle-header-search form .search-box .form-control::-webkit-input-placeholder {
+.middle-header-search
+form
+.search-box
+.form-control::-webkit-input-placeholder {
     color: #292929;
 }
 
@@ -711,8 +729,8 @@ h6:last-child {
     width: 40px;
     position: absolute;
     right: 0;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -774,15 +792,15 @@ h6:last-child {
     color: #fff;
     font-size: 11px;
     font-weight: 400;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .middle-header-optional li a i {
     font-size: 25px;
     color: #fff;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .middle-header-optional li a i:hover {
