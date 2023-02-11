@@ -1,9 +1,9 @@
-import PageTitle from './components/Common/PageTitle'
+import Footer from './components/Footer/Footer'
 
 function App () {
   return (
     <div>
-      <PageTitle/>
+      <Footer/>
     </div>
   )
 }

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="page title">
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="page title 2">
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Blog/Blog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/PageTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/PageTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/PageTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/PageTitle.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="2698000" />
+      <workItem from="1676090108895" duration="2985000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -178,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676093539841</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="page title 2">
+      <created>1676093666441</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676093666441</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +207,7 @@
     <MESSAGE value="config redux 2" />
     <MESSAGE value="config App.js" />
     <MESSAGE value="page title" />
-    <option name="LAST_COMMIT_MESSAGE" value="page title" />
+    <MESSAGE value="page title 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="page title 2" />
   </component>
 </project>
