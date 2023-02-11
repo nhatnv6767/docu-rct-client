@@ -6,8 +6,9 @@ function App () {
   return (
     <Router>
       {/*<ComingSoonArea/>*/}
-      <TopHeader
-        shippingMessage="Miễn phí vận chuyển với đơn hàng trên 10.000 yên"/>
+      {/*<TopHeader shippingMessage="Miễn phí vận chuyển với đơn hàng trên 10.000 yên"/>*/}
+      <ComingSoonArea/>
+
     </Router>
   )
 }
