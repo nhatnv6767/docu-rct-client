@@ -1,11 +1,11 @@
 const ComingSoonArea = ({ days, hours, minutes, seconds }) => {
   return (
     <>
-      <div className="comming-soon-area ptb-50">
+      <div className="coming-soon-area ptb-50">
         <div className="d-table">
           <div className="d-table-cell">
             <div className="coming-soon-content">
-              <h2>Chúng tôi sẽ khởi chạy chương trình sớm ...</h2>
+              <h2>Chúng tôi sẽ khởi chạy chương trình sau ...</h2>
               <div id="timer"
                    className="flex-wrap d-flex justify-content-center">
                 <div id="days"
