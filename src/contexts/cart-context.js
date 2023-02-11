@@ -1,3 +1,5 @@
+import { createContext } from 'react'
+
 const initialState = {
   cartItems: [],
   addItemToCart: (item) => {},
@@ -6,3 +8,5 @@ const initialState = {
   decreaseQuantity: (index) => {},
   emptyCart: () => {},
 }
+
+export default createContext(initialState)
