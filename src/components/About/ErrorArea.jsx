@@ -10,7 +10,7 @@ const ErrorArea = (props) => {
             <div className="error-content">
               <img src={errorImg} alt="error"/>
 
-              <h3>Wops - 404! Trang không tìm thấy!</h3>
+              <h3>Wops - 404! Không tìm thấy trang!</h3>
               <p>
                 Trang mà bạn đang tìm kiếm có thể đã bị xoá, tên đã thay đổi
                 hoặc tạm thời không khả dụng.
