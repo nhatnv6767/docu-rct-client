@@ -65,7 +65,7 @@ function TopHeader ({ shippingMessage, history }) {
                   {!context.token && (
                     <Link to="/login">Đăng nhập</Link>
                   )}{' '}
-                  Hoặc{' '}
+                  /{' '}
                   {!context.token && (
                     <Link to="/login">Đăng ký</Link>
                   )}

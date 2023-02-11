@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="middleHeader 1">
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="middleHeader 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MiddleHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MiddleHeader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/MiddleHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MiddleHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/TopHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/TopHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="21805000" />
+      <workItem from="1676090108895" duration="24746000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -376,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676129090112</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="middleHeader 2">
+      <created>1676129132266</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1676129132266</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +397,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="index.js import url" />
     <MESSAGE value="footer and css global" />
     <MESSAGE value="footer 2" />
     <MESSAGE value="footer fn" />
@@ -410,6 +421,7 @@
     <MESSAGE value="coming soon css" />
     <MESSAGE value="middleHeader born" />
     <MESSAGE value="middleHeader 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="middleHeader 1" />
+    <MESSAGE value="middleHeader 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="middleHeader 2" />
   </component>
 </project>

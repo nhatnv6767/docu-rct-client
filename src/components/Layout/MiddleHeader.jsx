@@ -140,4 +140,4 @@ const MiddleHeader = ({ history }) => {
   )
 }
 
-export default MiddleHeader
+export default withRouter(MiddleHeader)
