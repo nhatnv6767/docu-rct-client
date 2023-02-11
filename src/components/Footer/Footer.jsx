@@ -69,14 +69,14 @@ const Footer = (props) => {
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div className="single-footer widget">
+              <div className="single-footer-widget">
                 <h2>Hỗ trợ</h2>
                 <ul className="quick-links">
-                  <li><a href="/my-account">Tài khoản của tôi</a></li>
+                  <li><a href="/my-account">Tài khoản</a></li>
                   <li><a href="/tracking-order">Theo dõi đơn hàng</a></li>
                   <li><a href="/contact">Liên hệ</a></li>
                   <li><a href="/terms-of-service">Dịch vụ khách hàng</a></li>
-                  <li><a href="/faqs">Câu hỏi</a></li>
+                  <li><a href="/faqs">Câu hỏi thường gặp</a></li>
                   <li><a href="/contact">Giúp đỡ</a></li>
                 </ul>
               </div>
@@ -119,7 +119,7 @@ const Footer = (props) => {
         <div className="container">
           <div className="copyright-area-content">
             <p>
-              
+
             </p>
           </div>
         </div>
