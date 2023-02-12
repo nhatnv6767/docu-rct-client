@@ -139,6 +139,117 @@ h6:last-child {
     padding: 15px 35px;
 }
 
+.default-btn span {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+    -webkit-transition: width .5s ease-in-out, height .5s ease-in-out;
+    transition: width .5s ease-in-out, height .5s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 1;
+}
+
+.default-btn i {
+    margin-right: 5px;
+    color: #fff;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.default-btn:hover {
+    color: #292929 !important;
+}
+
+.default-btn:hover span {
+    width: 225%;
+    height: 562.5px;
+}
+
+.default-btn:hover i {
+    color: #292929;
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: #fff;
+}
+
+.preloader .loader {
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translateX(-50%) translateY(-45%);
+    transform: translateX(-50%) translateY(-45%);
+    position: absolute;
+}
+
+/*HERE*/
+.preloader .loader .sbl-half-circle-spin {
+    height: 80px;
+    width: 80px;
+    color: #136;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #136;
+    border-radius: 50%;
+    animation: animeCircleSpin 5s ease-in-out infinite reverse;
+}
+
+.preloader .loader .sbl-half-circle-spin div {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border: 2px solid #ed1d24;
+    border-radius: 50%;
+    -webkit-animation: animeCircleSpin 4s ease-in-out infinite;
+    animation: animeCircleSpin 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes animeCircleSpin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(720deg);
+        transform: rotate(720deg);
+    }
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+@keyframes animeCircleSpin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(720deg);
+        transform: rotate(720deg);
+    }
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
 /*FOOTER*/
 
 .single-footer-widget {
