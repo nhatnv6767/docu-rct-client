@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="Navbar 1">
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="Navbar 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
       <workItem from="1676090108895" duration="29373000" />
-      <workItem from="1676209919734" duration="5282000" />
+      <workItem from="1676209919734" duration="5777000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -435,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676194682603</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Navbar 2">
+      <created>1676216809017</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1676216809017</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +451,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="redux action &lt;order&gt;" />
     <MESSAGE value="redux reducer &lt;order&gt;" />
     <MESSAGE value="redux root reducer &lt;order&gt;" />
     <MESSAGE value="redux &lt;product&gt;" />
@@ -469,6 +475,7 @@
     <MESSAGE value="____ git ignore" />
     <MESSAGE value="Navbar born" />
     <MESSAGE value="Navbar 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar 1" />
+    <MESSAGE value="Navbar 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar 2" />
   </component>
 </project>
