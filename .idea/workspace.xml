@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="global css 2">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="____ git ignore">
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
-      <workItem from="1676090108895" duration="27269000" />
+      <workItem from="1676090108895" duration="28233000" />
     </task>
     <task id="LOCAL-00001" summary="package install">
       <created>1676090886472</created>
@@ -412,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676193008174</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="____ git ignore">
+      <created>1676193226078</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1676193226078</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +430,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="top header 2" />
     <MESSAGE value="top header css" />
     <MESSAGE value="redux type &lt;order&gt;" />
     <MESSAGE value="redux action &lt;order&gt;" />
@@ -446,6 +454,7 @@
     <MESSAGE value="middleHeader css 2" />
     <MESSAGE value="global css" />
     <MESSAGE value="global css 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="global css 2" />
+    <MESSAGE value="____ git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="____ git ignore" />
   </component>
 </project>
