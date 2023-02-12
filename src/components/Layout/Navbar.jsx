@@ -1,7 +1,8 @@
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+import { Link, useHistory, useLocation } from 'react-router-dom'
 
 import AuthContext from '../../contexts/auth-context'
+import { useContext, useEffect, useState } from 'react'
 
 const homeRoutes = ['/', 'home']
 const pagesRoutes = [
@@ -45,9 +46,64 @@ const blogRoutes = [
 const productsRoutes = ['/products', '/add-product']
 
 const Navbar = (props) => {
+  const [user, setUser] = useState({})
+  const [visible, setVisible] = useState(false)
+  const { pathname } = useLocation()
+  const context = useContext(AuthContext)
+  const history = useHistory()
+  const [active, setActive] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
+
+  useEffect(() => {
+    if (context && context.userId) {
+      axios.get(`/user/${context.userId}`)
+        .then((res) => {
+          setUser(res.data.user)
+        })
+        .catch((err) => {
+          console.log(err)
+        })
+    }
+  }, [context])
+
+  const toggleHotline = () => {
+    setActive(!active)
+  }
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu)
+  }
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+    if (currentScrollPos > 90) {
+      setVisible(true)
+    } else {
+      setVisible(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [visible, handleScroll])
+
+  const handleLogout = () => {
+    context.logout()
+    history.push("/login")
+  }
 
   return (
-    <div>Navbar</div>
+    <div
+      className={`navbar-area ${
+        visible ? "is-sticky sticky-active" : ""
+      }`}
+    >
+      <div className={showMenu ? "main-navbar show" : "main-navbar"}>
+
+      </div>
+
+    </div>
   )
 }
 
