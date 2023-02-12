@@ -225,7 +225,7 @@ const Navbar = (props) => {
                       <div className="container">
                         <div className="row">
                           <div className="col">
-                            <ul className="menamenu-submenu">
+                            <ul className="megamenu-submenu">
                               <li>
                                 <NavLink
                                   to={'/about'}
@@ -274,13 +274,13 @@ const Navbar = (props) => {
                               {!context.token && (
                                 <div>
                                   <li>
-                                    <NavLink className="nav-link" to='/login'>
+                                    <NavLink className="nav-link" to="/login">
                                       Đăng nhập
                                     </NavLink>
                                   </li>
                                   <li>
                                     <NavLink className="nav-link"
-                                             to='/register'>
+                                             to="/register">
                                       Đăng ký
                                     </NavLink>
                                   </li>
@@ -307,7 +307,7 @@ const Navbar = (props) => {
                               <li>
                                 <NavLink className="nav-link"
                                          to="/tracking-order">
-                                  Theo dõi đơn hàng
+                                  Theo dõi đơn
                                 </NavLink>
                               </li>
 
@@ -350,7 +350,7 @@ const Navbar = (props) => {
                     isActive={() => shopRoutes.includes(pathname)}
                     className="nav-link"
                   >
-                    Cửa hàng {" "}
+                    Cửa hàng {' '}
                     <i className="bx bx-chevron-down chevron-display"></i>
                     <span className="plus_icon">+</span>
                   </NavLink>
@@ -404,7 +404,7 @@ const Navbar = (props) => {
                     isActive={() => blogRoutes.includes(pathname)}
                     className="nav-link"
                   >
-                    Blog{" "}
+                    Blog{' '}
                     <i className="bx bx-chevron-down chevron-display"></i>
                     <span className="plus_icon">+</span>
                   </NavLink>
@@ -459,7 +459,7 @@ const Navbar = (props) => {
                       >
                         {user && (
                           <i className="bx bxs-user"></i>
-                        )} {" "}
+                        )} {' '}
                         <i className="bx bx-chevron-down chevron-display"></i>
                         <span className="plus_icon">
                           +
@@ -472,7 +472,7 @@ const Navbar = (props) => {
                           </NavLink>
                         </li>
 
-                        {user.role === "admin" && (
+                        {user.role === 'admin' && (
                           <>
                             <li className="nav-item">
                               <NavLink className="nav-link" to="/products">
@@ -560,7 +560,7 @@ const Navbar = (props) => {
             )}
           </div>
 
-          <div className={active ? "active container" : "container"}>
+          <div className={active ? 'active container' : 'container'}>
             <div className="option-inner">
               <div className="others-option d-flex align-items-center">
                 <div className="option-item">
