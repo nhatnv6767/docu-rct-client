@@ -1826,4 +1826,12 @@ form
     margin-bottom: 0;
 }
 
+.support-inner-item {
+    background-color: #fff;
+    padding: 30px 50px 0;
+}
+
+.single-arrivals-products {
+    margin-bottom: 30px;
+}
 
