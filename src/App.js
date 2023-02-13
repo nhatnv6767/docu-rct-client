@@ -4,6 +4,7 @@ import TopHeader from './components/Layout/TopHeader'
 import ComingSoon from './pages/About/ComingSoon'
 import MiddleHeader from './components/Layout/MiddleHeader'
 import Navbar from './components/Layout/Navbar'
+import Support from './components/Common/Support'
 
 function App () {
   return (
@@ -14,6 +15,7 @@ function App () {
       {/*<ComingSoon/>*/}
       <MiddleHeader/>
       <Navbar/>
+      <Support/>
     </Router>
   )
 }
