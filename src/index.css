@@ -1515,8 +1515,8 @@ form
     font-size: 18px;
     position: relative;
     top: unset;
-    -webkit-transition: unset;
-    transition: unset;
+    -webkit-transform: unset;
+    transform: unset;
     left: 0;
     right: 0;
     margin-right: 5px;
