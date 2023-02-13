@@ -35,11 +35,57 @@ const NewArrivals = ({
                       <ul className="arrivals-action">
 
                         <li>
-                          
+                          <span
+                            className="addtocart-icon-wrap"
+                            onClick={() => addToCart(product)}
+                          >
+                            <i className="flaticon-shopping-cart"></i>
+                          </span>
                         </li>
 
+                        <li>
+                          <a href="#">
+                            <i className="flaticon-heart"></i>
+                          </a>
+                        </li>
+
+                        <li>
+                          <span
+                            className="quickview-icon-wrap"
+                            onClick={() => showQuickView(product)}
+                          >
+                            <i className="flaticon-view quick-icon"></i>
+                          </span>
+                        </li>
                       </ul>
                     </div>
+
+                    <div className="arrivals-products-content">
+                      <h3>
+                        <Link to={`/products-details/${product._id}`}>
+                          {product.name}
+                        </Link>
+                      </h3>
+                      <ul className="rating">
+                        <li>
+                          <i className="bx bxs-star"></i>
+                        </li>
+                        <li>
+                          <i className="bx bxs-star"></i>
+                        </li>
+                        <li>
+                          <i className="bx bxs-star"></i>
+                        </li>
+                        <li>
+                          <i className="bx bxs-star"></i>
+                        </li>
+                        <li>
+                          <i className="bx bxs-star"></i>
+                        </li>
+                      </ul>
+                      <span>${product.price}</span>
+                    </div>
+
                   </div>
                 </div>
               )
