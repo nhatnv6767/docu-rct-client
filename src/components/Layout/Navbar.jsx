@@ -108,7 +108,7 @@ const Navbar = (props) => {
                   <li className="nav-item respo-nav">
                     <a href="#" className="nav-link">
                       <i className="bx bx-menu"></i>
-                      All Categories
+                      Danh mục
                     </a>
                     <ul className="dropdown-menu">
 
