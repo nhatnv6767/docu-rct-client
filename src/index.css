@@ -1769,5 +1769,13 @@ form
 
 }
 
+/*SUPPORT*/
+.support-area.bg-color {
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+}
+
+
 
 
