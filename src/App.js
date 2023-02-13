@@ -15,7 +15,7 @@ function App () {
       {/*<ComingSoon/>*/}
       <MiddleHeader/>
       <Navbar/>
-      <Support/>
+      <Support paddingClass="pt-20 pb-50"/>
     </Router>
   )
 }

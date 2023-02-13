@@ -1,9 +1,11 @@
 const Support = ({ paddingClass = null }) => {
   return (
     <section className={'support-area ' + paddingClass}>
+      {/*<section className="support-area ">*/}
       <div className="container">
         <div className="support-inner-box">
           <div className="row">
+
             <div className="col-lg-3 col-md-6">
               <div className="single-support">
                 <div className="icon">

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="support component">
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="support css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/Support.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/Support.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676090107868</updated>
       <workItem from="1676090108895" duration="29373000" />
-      <workItem from="1676209919734" duration="23247000" />
-    </task>
-    <task id="LOCAL-00004" summary="config and structure 3">
-      <created>1676091437944</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676091437944</updated>
+      <workItem from="1676209919734" duration="24362000" />
     </task>
     <task id="LOCAL-00005" summary="context cart">
       <created>1676091533836</created>
@@ -463,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676305244749</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="support css">
+      <created>1676305447509</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1676305447509</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +474,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Route 404" />
     <MESSAGE value="error page" />
     <MESSAGE value="top_header css" />
     <MESSAGE value="comming soon area" />
@@ -497,6 +498,7 @@
     <MESSAGE value="Navbar css 4" />
     <MESSAGE value="Home page" />
     <MESSAGE value="support component" />
-    <option name="LAST_COMMIT_MESSAGE" value="support component" />
+    <MESSAGE value="support css" />
+    <option name="LAST_COMMIT_MESSAGE" value="support css" />
   </component>
 </project>

@@ -1777,5 +1777,53 @@ form
 }
 
 
+.support-area.bg-color .col-lg-3:last-child .single-support::before {
+    display: none;
+}
+
+.support-inner-box {
+    background-color: #fff;
+    padding: 30px 50px;
+}
+
+.support-inner-box .col-lg-3:last-child .single-support::before {
+    display: none;
+}
+
+.single-support {
+    position: relative;
+}
+
+.single-support::before {
+    position: absolute;
+    right: 0;
+    top: -12px;
+    width: 1px;
+    content: "";
+    height: 45px;
+    background-color: #ccc;
+}
+
+.single-support .icon {
+    position: absolute;
+    left: 0;
+    top: -14px;
+}
+
+.single-support .icon i {
+    font-size: 45px;
+    line-height: 1;
+    color: #136;
+}
+
+.single-support .support-content {
+    padding-left: 55px;
+}
+
+.single-support .support-content h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
 
 
