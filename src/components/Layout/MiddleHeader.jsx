@@ -1,7 +1,7 @@
 import { Link, withRouter } from 'react-router-dom'
 import CartContext from '../../contexts/cart-context'
 import AuthContext from '../../contexts/auth-context'
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/logo_fix_x.png'
 import './MiddleHeader.css'
 import { useContext, useState } from 'react'
 
