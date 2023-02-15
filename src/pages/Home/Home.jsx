@@ -10,6 +10,7 @@ import { useContext, useState } from 'react'
 import cartContext from '../../contexts/cart-context'
 import Banner from '../../components/Home/Banner'
 import './Home.css'
+import Overview from '../../components/Home/Overview'
 
 const Home = (props) => {
 
@@ -22,16 +23,18 @@ const Home = (props) => {
   const { products } = useSelector(state => state.productReducer)
   const context = useContext(cartContext)
   return (
-    <div>
+    <>
 
       <Banner/>
+      <Overview/>
+      <Support/>
       {/*<NewArrivals*/}
       {/*  paddingClass="pt-100 pb-70"*/}
       {/*  products={products}*/}
       {/*  addToCart=""*/}
       {/*  showQuickView=""*/}
       {/*/>*/}
-    </div>
+    </>
   )
 }
 
