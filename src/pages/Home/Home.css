@@ -1,0 +1,5 @@
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    visibility: hidden;
+    position: absolute;
+}

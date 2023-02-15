@@ -1835,3 +1835,56 @@ form
     margin-bottom: 30px;
 }
 
+/*BANNER*/
+
+.main-slider-item {
+    background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#99b9da),
+            color-stop(#aac4e0),
+            color-stop(#bbcfe6),
+            color-stop(#ccdbec),
+            to(#dce6f2)
+    );
+    background: linear-gradient(
+            to bottom,
+            #99b9da,
+            #aac4e0,
+            #bbcfe6,
+            #ccdbec,
+            #dce6f2
+    );
+    height: 730px;
+}
+
+.main-slider-content b {
+    font-size: 18px;
+    color: #ed1d24;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.main-slider-content h1 {
+    font-size: 60px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.main-slider-content p {
+    margin-bottom: 0;
+}
+
+.main-slider-content .slider-btn {
+    margin-top: 30px;
+}
+
+.owl-theme .owl-nav {
+    margin: 0 !important;
+}
+
+
+
+

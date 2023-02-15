@@ -28,7 +28,7 @@ const Banner = (props) => {
                 <div className="col-lg-6">
                   <div className="main-slider-content">
                     <b>Ưu đãi khủng</b>
-                    <h1>Máy bay drone có một món quà hấp dẫn - miễn phí</h1>
+                    <h1>Drone - Nhiều quà tặng kèm thú vị</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Ab, blanditiis eius excepturi harum ipsum iusto labore
                       laboriosam maxime mollitia officia quis tempore! Ab

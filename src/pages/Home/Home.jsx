@@ -8,9 +8,8 @@ import BestSellers from '../../components/Common/BestSellers'
 import { useDispatch, useSelector } from 'react-redux'
 import { useContext, useState } from 'react'
 import cartContext from '../../contexts/cart-context'
-
-import './Home.css'
 import Banner from '../../components/Home/Banner'
+import './Home.css'
 
 const Home = (props) => {
 

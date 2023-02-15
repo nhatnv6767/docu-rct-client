@@ -13,6 +13,9 @@
 /.idea/workspace.xml
 .env
 
+/workspace.xml
+
+
 # misc
 .DS_Store
 .env.local
