@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="new arrivals css 3...">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo_fix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo_fix_x.png" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="some fix logo">
+      <change afterPath="$PROJECT_DIR$/src/components/Common/BestSellers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/MiddleHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MiddleHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,13 +124,7 @@
       <workItem from="1676209919734" duration="27930000" />
       <workItem from="1676378017278" duration="11000" />
       <workItem from="1676458518058" duration="771000" />
-    </task>
-    <task id="LOCAL-00010" summary="page title">
-      <created>1676093539841</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1676093539841</updated>
+      <workItem from="1676468422036" duration="986000" />
     </task>
     <task id="LOCAL-00011" summary="page title 2">
       <created>1676093666441</created>
@@ -467,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676378000040</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="some fix logo">
+      <created>1676468502559</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1676468502559</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +478,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="comming soon init" />
     <MESSAGE value="coming soon css" />
     <MESSAGE value="middleHeader born" />
     <MESSAGE value="middleHeader 1" />
@@ -501,6 +502,7 @@
     <MESSAGE value="new arrivals 2" />
     <MESSAGE value="new arrivals css 3" />
     <MESSAGE value="new arrivals css 3..." />
-    <option name="LAST_COMMIT_MESSAGE" value="new arrivals css 3..." />
+    <MESSAGE value="some fix logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fix logo" />
   </component>
 </project>

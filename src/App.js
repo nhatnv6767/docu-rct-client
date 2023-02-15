@@ -6,6 +6,7 @@ import MiddleHeader from './components/Layout/MiddleHeader'
 import Navbar from './components/Layout/Navbar'
 import Support from './components/Common/Support'
 import NewArrivals from './components/Common/NewArrivals'
+import Home from './pages/Home/Home'
 
 function App () {
   return (
@@ -16,8 +17,8 @@ function App () {
       {/*<ComingSoon/>*/}
       <MiddleHeader/>
       <Navbar/>
-      <NewArrivals/>
       {/*<Support paddingClass="pt-20 pb-50"/>*/}
+      <Home/>
     </Router>
   )
 }
