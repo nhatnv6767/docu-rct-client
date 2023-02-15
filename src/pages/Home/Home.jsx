@@ -10,6 +10,7 @@ import { useContext, useState } from 'react'
 import cartContext from '../../contexts/cart-context'
 
 import './Home.css'
+import Banner from '../../components/Home/Banner'
 
 const Home = (props) => {
 
@@ -23,12 +24,14 @@ const Home = (props) => {
   const context = useContext(cartContext)
   return (
     <div>
-      <NewArrivals
-        paddingClass="pt-100 pb-70"
-        products={products}
-        addToCart=""
-        showQuickView=""
-      />
+
+      <Banner/>
+      {/*<NewArrivals*/}
+      {/*  paddingClass="pt-100 pb-70"*/}
+      {/*  products={products}*/}
+      {/*  addToCart=""*/}
+      {/*  showQuickView=""*/}
+      {/*/>*/}
     </div>
   )
 }

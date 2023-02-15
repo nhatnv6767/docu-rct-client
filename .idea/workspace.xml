@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="some fix logo">
-      <change afterPath="$PROJECT_DIR$/src/components/Common/BestSellers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="0787a528-ffc9-43ad-aafa-2f1b96e1b2e8" name="Changes" comment="Home page">
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Banner.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,14 +122,7 @@
       <workItem from="1676209919734" duration="27930000" />
       <workItem from="1676378017278" duration="11000" />
       <workItem from="1676458518058" duration="771000" />
-      <workItem from="1676468422036" duration="986000" />
-    </task>
-    <task id="LOCAL-00011" summary="page title 2">
-      <created>1676093666441</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1676093666441</updated>
+      <workItem from="1676468422036" duration="1839000" />
     </task>
     <task id="LOCAL-00012" summary="assets">
       <created>1676094368828</created>
@@ -469,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676468502559</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Home page">
+      <created>1676469421087</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1676469421087</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +492,6 @@
     <MESSAGE value="Navbar css 2" />
     <MESSAGE value="Navbar css 3" />
     <MESSAGE value="Navbar css 4" />
-    <MESSAGE value="Home page" />
     <MESSAGE value="support component" />
     <MESSAGE value="support css" />
     <MESSAGE value="support css 2" />
@@ -503,6 +500,7 @@
     <MESSAGE value="new arrivals css 3" />
     <MESSAGE value="new arrivals css 3..." />
     <MESSAGE value="some fix logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fix logo" />
+    <MESSAGE value="Home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page" />
   </component>
 </project>
