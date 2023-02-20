@@ -12,6 +12,7 @@ import cartContext from '../../contexts/cart-context'
 import Banner from '../../components/Home/Banner'
 import './Home.css'
 import Overview from '../../components/Home/Overview'
+import Partner from '../../components/Common/Partner'
 
 const Home = (props) => {
 
@@ -31,6 +32,7 @@ const Home = (props) => {
       <Support/>
 
       <LatestNews/>
+      <Partner paddingClass=" ptb-100"/>
       {/*<NewArrivals*/}
       {/*  paddingClass="pt-100 pb-70"*/}
       {/*  products={products}*/}
