@@ -64,15 +64,20 @@ const Home = (props) => {
       <Banner/>
       <Overview/>
       <Support/>
-
+      <NewArrivals
+        paddingClass="pt-100 pb-70"
+        products={products}
+        addToCart=""
+        showQuickView=""
+      />
       <LatestNews/>
       <Partner paddingClass=" ptb-100"/>
-      {/*<NewArrivals*/}
-      {/*  paddingClass="pt-100 pb-70"*/}
-      {/*  products={products}*/}
-      {/*  addToCart=""*/}
-      {/*  showQuickView=""*/}
-      {/*/>*/}
+
+      <Footer/>
+
+      <div className="go-top">
+        <i className="bx bx-up-arrow-alt"></i>
+      </div>
     </>
   )
 }
