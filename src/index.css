@@ -1768,6 +1768,14 @@ form
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*OVERVIEW*/
+    .overview-area {
+        padding-bottom: 50px !important;
+    }
+}
+
 /*SUPPORT*/
 .support-area.bg-color {
     background-color: #fff;
@@ -1883,6 +1891,102 @@ form
 .owl-theme .owl-nav {
     margin: 0 !important;
 }
+
+/*OVERVIEW*/
+.single-overview {
+    background-color: #f0e9ea;
+    padding: 35px 25px;
+    position: relative;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+
+.single-overview::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 35%;
+    background-color: #ddd0d3;
+    top: 0;
+    left: 0;
+    border-radius: 0 50% 50% 0;
+}
+
+.single-overview .overview-content h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.single-overview .overview-content p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.single-overview .overview-content span {
+    font-size: 25px;
+    color: #ed1d24;
+    font-weight: 600;
+}
+
+.single-overview .overview-content .overview-btn {
+    margin-top: 15px;
+}
+
+.single-overview .overview-content .overview-btn .default-btn {
+    padding: 14px 35px;
+}
+
+.single-overview:hover {
+    transform: translateY(-5px);
+}
+
+.single-overview-item {
+    background-color: #dce3fa;
+    padding: 20px 25px;
+    transition: .5s;
+}
+
+.single-overview-item .overview-content p {
+    margin-bottom: 10px;
+}
+
+.single-overview-item .overview-content h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.single-overview-item .overview-content span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    background-color: #ed1d24;
+    color: #fff;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.single-overview-item .overview-content .overview-btn {
+    margin-top: 20px;
+}
+
+.single-overview-item .overview-content .overview-btn .overview-btn-one {
+    font-size: 16px;
+    color: #292929;
+    border-bottom: 1px solid #292929;
+}
+
+.single-overview-item:hover {
+    transform: translateY(-5px);
+}
+
+.single-overview-item:hover .overview-content span {
+    background-color: #136;
+}
+
+
+
+
 
 
 
