@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer'
 import NewArrivals from '../../components/Common/NewArrivals'
 import Support from '../../components/Common/Support'
 import BestSellers from '../../components/Common/BestSellers'
+import LatestNews from '../../components/Common/LatestNews'
 
 import { useDispatch, useSelector } from 'react-redux'
 import { useContext, useState } from 'react'
@@ -28,6 +29,8 @@ const Home = (props) => {
       <Banner/>
       <Overview/>
       <Support/>
+
+      <LatestNews/>
       {/*<NewArrivals*/}
       {/*  paddingClass="pt-100 pb-70"*/}
       {/*  products={products}*/}
