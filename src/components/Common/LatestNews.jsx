@@ -25,7 +25,7 @@ const LatestNews = ({ paddingClass = '' }) => {
                 <span>TMDT</span>
                 <h3>
                   <a href="/blog-details">
-                    Nhà máy đang sản xuất chip dị động của riêng mình
+                    Nhận sửa chữa thiết bị điện tử
                   </a>
                 </h3>
 
