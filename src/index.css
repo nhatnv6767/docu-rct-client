@@ -2093,6 +2093,16 @@ form
     color: #ed1d24;
 }
 
+/*PARTNER*/
+
+.partner-area {
+    background-color: #f2f2f2;
+}
+
+.partner-item img {
+    width: auto !important;
+    margin: auto;
+}
 
 
 
