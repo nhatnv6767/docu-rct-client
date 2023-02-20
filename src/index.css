@@ -2104,8 +2104,9 @@ form
     margin: auto;
 }
 
-
-
+.plus-icon {
+    display: none;
+}
 
 
 

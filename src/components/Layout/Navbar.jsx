@@ -206,7 +206,7 @@ const Navbar = (props) => {
                   >
                     Trang chủ {' '}
                     <i className="bx bx-chevron-down chevron-display"></i>
-                    <span className="plus_icon"></span>
+                    <span className="plus-icon"></span>
                   </NavLink>
                 </li>
 
@@ -218,7 +218,7 @@ const Navbar = (props) => {
                   >
                     Liên kết{' '}
                     <i className="bx bx-chevron-down chevron-display"></i>
-                    <span className="plus_icon"></span>
+                    <span className="plus-icon"></span>
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
@@ -352,7 +352,7 @@ const Navbar = (props) => {
                   >
                     Cửa hàng {' '}
                     <i className="bx bx-chevron-down chevron-display"></i>
-                    <span className="plus_icon">+</span>
+                    <span className="plus-icon">+</span>
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
@@ -406,7 +406,7 @@ const Navbar = (props) => {
                   >
                     Blog{' '}
                     <i className="bx bx-chevron-down chevron-display"></i>
-                    <span className="plus_icon">+</span>
+                    <span className="plus-icon">+</span>
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li className="nav-item">
@@ -461,7 +461,7 @@ const Navbar = (props) => {
                           <i className="bx bxs-user"></i>
                         )} {' '}
                         <i className="bx bx-chevron-down chevron-display"></i>
-                        <span className="plus_icon">
+                        <span className="plus-icon">
                           +
                         </span>
                       </NavLink>
