@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 import * as Yup from 'yup'
+import * as log from 'react-dom/test-utils'
 
 const RegisterArea = (props) => {
 
@@ -34,40 +35,40 @@ const RegisterArea = (props) => {
     try {
       let { data, status, ...res } = await axios.post(
         'http://localhost:5055/user/register', {
-          name: 'name',
-          username: 'username',
-          email: 'email@gmail.com',
-          phone: '0900000999',
-          password: '01279876',
+          name: name.current.value,
+          username: username.current.value,
+          email: email.current.value,
+          phone: phone.current.value,
+          password: password.current.value,
         })
 
-      console.log('data _: ', data)// tra ve data.message neu thanh cong
-      console.log('res _: ', res)
-      console.log('res response_: ', res.request.json())
-      console.log('status _: ', status)
-    } catch (e) {
-      console.log('error: ', e)
-    }
+      if (status === 200) {
+        name.current.value = ''
+        username.current.value = ''
+        email.current.value = ''
+        phone.current.value = ''
+        password.current.value = ''
+        setMessage(data.message)
+        console.log(message)
+      } else {
+        console.log('something wrong')
+      }
 
-    // try {
-    //   let { res } = await axios({
-    //     url: `${process.env.REACT_APP_BACKEND_URL}/user/register`,
-    //     method: 'POST',
-    //     data: {
-    //       name: name.current.value,
-    //       username: username.current.value,
-    //       email: email.current.value,
-    //       phone: phone.current.value,
-    //       password: password.current.value,
-    //     },
-    //   })
-    //   console.log(res)
-    //   if (res.status === 200) {
-    //
-    //   }
-    // } catch (e) {
-    //
-    // }
+      // console.log('data _: ', data)// tra ve data.message neu thanh cong
+      // console.log('data message_: ', data.message)// tra ve data.message neu thanh cong
+      // console.log('res _: ', res)
+      // console.log('res response_: ', res.request)
+      // console.log('status _: ', status)
+    } catch (e) {
+      let errorMessage = e.response.data.error
+      let errors = Object.values(e.response.data.error)
+      console.log('errorMessage', errorMessage)
+      console.log('errors in catch', errors)
+      setMessage(errorMessage)
+      // setMessage(errors)
+      // console.log('error: ', e.response)
+
+    }
 
   }
 
