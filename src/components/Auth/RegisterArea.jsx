@@ -62,7 +62,7 @@ const RegisterArea = (props) => {
       let errorMessage = e.response.data.error
       let errors = Object.values(e.response.data.error)
       console.log(errorMessage)
-      setMessage(errorMessage)
+      setMessage(errors)
 
     }
 

@@ -2169,4 +2169,15 @@ form
 }
 
 
+/*REGISTER_AREA_FORM*/
+
+.register-form h2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    font-weight: 600;
+    position: relative;
+}
+
 
