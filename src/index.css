@@ -2109,7 +2109,64 @@ form
 }
 
 
+/*PAGE_TITLE*/
+.page-title-area {
+    padding-top: 35px;
+    padding-bottom: 32px;
+    background-color: #f5f5f5;
+}
 
+.page-title-content {
+    position: relative;
+}
+
+.page-title-content h2 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.page-title-content ul {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    list-style-type: none;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-title-content ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #136;
+    position: relative;
+    font-size: 16px;
+}
+
+.page-title-content ul li::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 10px;
+    height: 8px;
+    width: 8px;
+    background: #136;
+    border-radius: 50px;
+}
+
+.page-title-content ul li:first-child {
+    margin-left: 0;
+}
+
+.page-title-content ul li:first-child::before {
+    display: none;
+}
+
+.page-title-content ul li a {
+    display: block;
+}
 
 
 
