@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 import * as Yup from 'yup'
-import * as log from 'react-dom/test-utils'
 
 const RegisterArea = (props) => {
 
