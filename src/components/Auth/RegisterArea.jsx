@@ -31,21 +31,23 @@ const RegisterArea = (props) => {
   })
   const handleRegistration = async (e) => {
     e.preventDefault()
-    let promise = axios({
-      url: 'http://localhost:5055/user/register',
-      method: 'POST',
-      data: {
-        name: 'name',
-        username: 'username',
-        email: 'email@gmail.com',
-        phone: '0900000999',
-        password: '01279876',
-      },
-    })
-    promise.then((res) => res.json())
-    promise.then((res) => {
-      console.log(res)
-    })
+    try {
+      let { data, status, ...res } = await axios.post(
+        'http://localhost:5055/user/register', {
+          name: 'name',
+          username: 'username',
+          email: 'email@gmail.com',
+          phone: '0900000999',
+          password: '01279876',
+        })
+
+      console.log('data _: ', data)// tra ve data.message neu thanh cong
+      console.log('res _: ', res)
+      console.log('res response_: ', res.request.json())
+      console.log('status _: ', status)
+    } catch (e) {
+      console.log('error: ', e)
+    }
 
     // try {
     //   let { res } = await axios({
