@@ -7,19 +7,22 @@ import Navbar from './components/Layout/Navbar'
 import Support from './components/Common/Support'
 import NewArrivals from './components/Common/NewArrivals'
 import Home from './pages/Home/Home'
+import Register from './pages/Authentications/Register'
 
 function App () {
   return (
-    <Router>
-      {/*<ComingSoonArea/>*/}
-      <TopHeader
-        shippingMessage="Miễn phí vận chuyển với đơn hàng trên 10.000 &#165;"/>
-      {/*<ComingSoon/>*/}
-      <MiddleHeader/>
-      <Navbar/>
-      {/*<Support paddingClass="pt-20 pb-50"/>*/}
-      <Home/>
-    </Router>
+    <div className="app">
+      <Router>
+        <TopHeader
+          shippingMessage="Miễn phí vận chuyển với đơn hàng trên 10.000 &#165;"/>
+        <MiddleHeader/>
+        <Navbar/>
+        <Switch>
+          <Route path="/" exact component={Home}/>
+          <Route path="/register" component={Register}/>
+        </Switch>
+      </Router>
+    </div>
   )
 }
 

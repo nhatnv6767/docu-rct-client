@@ -2,6 +2,7 @@ import React from 'react'
 import PageTitle from '../../components/Common/PageTitle'
 import Support from '../../components/Common/Support'
 import Footer from '../../components/Footer/Footer'
+import RegisterArea from '../../components/Auth/RegisterArea'
 
 const Register = (props) => {
   return (
@@ -9,7 +10,7 @@ const Register = (props) => {
       <PageTitle title="Đăng ký"/>
       <section className="register-area ptb-50">
         <div className="container">
-          Trang dang ky o day
+          <RegisterArea/>
         </div>
       </section>
       <Support/>

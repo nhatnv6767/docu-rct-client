@@ -32,6 +32,20 @@ const RegisterArea = (props) => {
   const handleRegistration = async (e) => {
     e.preventDefault()
     try {
+      let { res } = await axios({
+        url: `${process.env.REACT_APP_BACKEND_URL}/user/register`,
+        method: 'POST',
+        data: {
+          name: name.current.value,
+          username: username.current.value,
+          email: email.current.value,
+          phone: phone.current.value,
+          password: password.current.value,
+        },
+      })
+      if (res.status === 200) {
+
+      }
     } catch (e) {
 
     }
@@ -39,8 +53,8 @@ const RegisterArea = (props) => {
   }
 
   return (
-    <div>
-      RegisterArea
+    <div className="register-form">
+      <h2>ĐĂNG KÝ</h2>
     </div>
   )
 }
