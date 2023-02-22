@@ -62,11 +62,8 @@ const RegisterArea = (props) => {
     } catch (e) {
       let errorMessage = e.response.data.error
       let errors = Object.values(e.response.data.error)
-      console.log('errorMessage', errorMessage)
-      console.log('errors in catch', errors)
+      console.log(errorMessage)
       setMessage(errorMessage)
-      // setMessage(errors)
-      // console.log('error: ', e.response)
 
     }
 
