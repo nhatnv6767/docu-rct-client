@@ -31,30 +31,139 @@ const RegisterArea = (props) => {
   })
   const handleRegistration = async (e) => {
     e.preventDefault()
-    try {
-      let { res } = await axios({
-        url: `${process.env.REACT_APP_BACKEND_URL}/user/register`,
-        method: 'POST',
-        data: {
-          name: name.current.value,
-          username: username.current.value,
-          email: email.current.value,
-          phone: phone.current.value,
-          password: password.current.value,
-        },
-      })
-      if (res.status === 200) {
+    let promise = axios({
+      url: 'http://localhost:5055/user/register',
+      method: 'POST',
+      data: {
+        name: 'name',
+        username: 'username',
+        email: 'email@gmail.com',
+        phone: '0900000999',
+        password: '01279876',
+      },
+    })
+    promise.then((res) => res.json())
+    promise.then((res) => {
+      console.log(res)
+    })
 
-      }
-    } catch (e) {
-
-    }
+    // try {
+    //   let { res } = await axios({
+    //     url: `${process.env.REACT_APP_BACKEND_URL}/user/register`,
+    //     method: 'POST',
+    //     data: {
+    //       name: name.current.value,
+    //       username: username.current.value,
+    //       email: email.current.value,
+    //       phone: phone.current.value,
+    //       password: password.current.value,
+    //     },
+    //   })
+    //   console.log(res)
+    //   if (res.status === 200) {
+    //
+    //   }
+    // } catch (e) {
+    //
+    // }
 
   }
 
   return (
     <div className="register-form">
+
+      {message &&
+        (Array.isArray(message) ? (
+            <div className="alert alert-danger" role="alert">
+              <ul className="errors" style={{ marginBottom: 0 }}>
+                {message.map((msg) => (
+                  <li key={msg} className="error">
+                    {msg}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <div className={`alert alert-success`} role="alert">
+              {message}
+            </div>
+          )
+        )
+      }
+
       <h2>ĐĂNG KÝ</h2>
+
+      <form onSubmit={handleRegistration}>
+
+        <div className="form-group">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Họ tên"
+            ref={name}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Tên tài khoản"
+            ref={username}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Email"
+            ref={email}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Số điện thoại"
+            ref={phone}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <input
+            type={passwordShown ? 'text' : 'password'}
+            className="form-control"
+            placeholder="Mật khẩu"
+            ref={password}
+            required
+          />
+        </div>
+
+        <div className="row align-items-center">
+          <div className="col-lg-6 col-md-6 col-sm-6">
+            <div className="form-check">
+              <input
+                type="checkbox"
+                className="form-check-input"
+                id="checkme"
+                onChange={() => setPasswordShown(!passwordShown)}
+              />
+              <label htmlFor="checkme" className="form-check-label"></label>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Đăng ký ngay</button>
+      </form>
+
+      <div className="important-text">
+        <p>
+          Bạn đã có tài khoản? <Link to="/login">Đăng nhập!</Link>
+        </p>
+      </div>
+
     </div>
   )
 }
