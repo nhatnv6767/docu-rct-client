@@ -2180,4 +2180,14 @@ form
     position: relative;
 }
 
+.register-form h2::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid #136;
+    height: 100%;
+    width: 100px;
+}
+
 
