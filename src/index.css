@@ -2241,6 +2241,56 @@ form
     transition: .5s;
 }
 
+.register-form form .form-check {
+    font-weight: 500;
+    font-size: 15px;
+    color: #656565;
+}
+
+.register-form form .form-check-input {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -18px;
+}
+
+.register-form form button {
+    border: none;
+    margin-top: 25px;
+    padding: 15px 30px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #136;
+    color: #fff;
+    transition: .5s;
+}
+
+.register-form form button:hover {
+    background-color: #ed1d24;
+}
+
+.register-form .important-text {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.register-form .important-text p {
+    font-size: 15px;
+    color: #656565;
+}
+
+.register-form .important-text p a {
+    color: #656565;
+    font-weight: 600;
+}
+
+.register-form .important-text p a:hover {
+    color: #136;
+}
+
+
+
+
 
 
 
