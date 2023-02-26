@@ -33,7 +33,7 @@ const RegisterArea = (props) => {
     e.preventDefault()
     try {
       let { data, status, ...res } = await axios.post(
-        'http://localhost:5055/user/register', {
+        `${process.env.REACT_APP_BACKEND_URL}/user/register`, {
           name: name.current.value,
           username: username.current.value,
           email: email.current.value,
