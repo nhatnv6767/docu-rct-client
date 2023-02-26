@@ -165,13 +165,13 @@ const ProductsArea = ({ products, history, editProduct, deleteProduct }) => {
                   className="btn btn-secondary"
                   data-dismiss="modal"
                 >
-Huỷ bỏ
+                  Huỷ bỏ
                 </button>
                 <button
-                type="button"
+                  type="button"
                   className="btn btn-danger"
-                data-dismiss="modal"
-                onClick={() => deleteProduct(product._id, imagePublicId}
+                  data-dismiss="modal"
+                  onClick={() => deleteProduct(product._id, imagePublicId)}
                 >
                   Xoá
                 </button>
@@ -196,7 +196,7 @@ Huỷ bỏ
                 </h5>
 
                 <button
-                type="button"
+                  type="button"
                   className="close"
                 >
 

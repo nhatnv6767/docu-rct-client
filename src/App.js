@@ -9,6 +9,7 @@ import NewArrivals from './components/Common/NewArrivals'
 import Home from './pages/Home/Home'
 import Register from './pages/Authentications/Register'
 import ProductsArea from './components/Products/ProductsArea'
+import Products from './pages/Products/Products'
 
 function App () {
   return (
@@ -18,10 +19,10 @@ function App () {
           shippingMessage="Miễn phí vận chuyển với đơn hàng trên 10.000 &#165;"/>
         <MiddleHeader/>
         <Navbar/>
-        <ProductsArea/>
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/register" component={Register}/>
+          <Route path="/products" component={Products}/>
         </Switch>
 
 
