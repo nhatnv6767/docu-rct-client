@@ -28,25 +28,25 @@ const Products = (props) => {
     imagePublicId,
     prod_image_public_id,
   ) => {
-    const formData = new FormData();
-    formData.append("product_id", prod_id)
-    formData.append("product_name", prod_name)
-    formData.append("product_description", prod_description)
-    formData.append("product_type", prod_type)
-    formData.append("product_color", prod_color)
-    formData.append("product_price", prod_price)
-    formData.append("total_in_stock", prod_instock)
-    formData.append("image_public_id", prod_image)
-    formData.append("upload_preset", "econix")
+    const formData = new FormData()
+    formData.append('product_id', prod_id)
+    formData.append('product_name', prod_name)
+    formData.append('product_description', prod_description)
+    formData.append('product_type', prod_type)
+    formData.append('product_color', prod_color)
+    formData.append('product_price', prod_price)
+    formData.append('total_in_stock', prod_instock)
+    formData.append('image_public_id', prod_image)
+    formData.append('upload_preset', 'econix')
 
     axios.post(`${process.env.REACT_APP_BACKEND_URL}/products/edit-product`,
       formData, {
         headers: {
-          "Content-Type": "multipart/form-data",
-        }
+          'Content-Type': 'multipart/form-data',
+        },
       })
       .then((res) => {
-        if (res.data.message === "Sản phẩm đã được sửa") {
+        if (res.data.message === 'Sản phẩm đã được sửa') {
           return axios.get(`${process.env.REACT_APP_BACKEND_URL}/products/`)
             .then((res) => {
               setProducts(res.data.products)
@@ -62,7 +62,7 @@ const Products = (props) => {
       productId: id,
     })
       .then((res) => {
-        if (res.data.message === "Đã xoá sản phẩm thành công") {
+        if (res.data.message === 'Đã xoá sản phẩm thành công') {
           setProducts(res.data.products)
         }
       })
@@ -70,8 +70,14 @@ const Products = (props) => {
   }
 
   return (
-    <div>
-      Products
+    <div className="products-wrap">
+      <PageTitle title="Sản phẩm"/>
+      <ProductsArea
+        products={products}
+        editProduct={editProduct}
+        deleteProduct={deleteProduct}
+      />
+      <Footer/>
     </div>
   )
 }
