@@ -1,0 +1,28 @@
+Index: src/components/Auth/LoginArea.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React, { useContext, useRef, useState } from 'react'\r\nimport { Link, withRouter } from 'react-router-dom'\r\nimport AuthContext from '../../contexts/auth-context'\r\n\r\nconst LoginArea = ({ customClass = '', history }) => {\r\n  const email = useRef()\r\n  const password = useRef()\r\n  const [alertMsg, setAlertMsg] = useState(null)\r\n  const context = useContext(AuthContext)\r\n  return (\r\n    <div>\r\n      LoginArea\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default LoginArea\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Auth/LoginArea.jsx b/src/components/Auth/LoginArea.jsx
+--- a/src/components/Auth/LoginArea.jsx	(revision 4813ec147b55da8dba27c403139da04c4aad7537)
++++ b/src/components/Auth/LoginArea.jsx	(date 1677916771077)
+@@ -1,17 +1,0 @@
+-import React, { useContext, useRef, useState } from 'react'
+-import { Link, withRouter } from 'react-router-dom'
+-import AuthContext from '../../contexts/auth-context'
+-
+-const LoginArea = ({ customClass = '', history }) => {
+-  const email = useRef()
+-  const password = useRef()
+-  const [alertMsg, setAlertMsg] = useState(null)
+-  const context = useContext(AuthContext)
+-  return (
+-    <div>
+-      LoginArea
+-    </div>
+-  )
+-}
+-
+-export default LoginArea
