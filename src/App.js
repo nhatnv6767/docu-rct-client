@@ -8,6 +8,9 @@ import Support from './components/Common/Support'
 import NewArrivals from './components/Common/NewArrivals'
 import Home from './pages/Home/Home'
 import Register from './pages/Authentications/Register'
+import ProductsArea from './components/Products/ProductsArea'
+import Products from './pages/Products/Products'
+import Login from './pages/Authentications/Login'
 
 function App () {
   return (
@@ -20,7 +23,11 @@ function App () {
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/register" component={Register}/>
+          <Route path="/login" component={Login}/>
+          <Route path="/products" component={Products}/>
         </Switch>
+
+
       </Router>
     </div>
   )
